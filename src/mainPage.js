@@ -8,9 +8,10 @@ import './App.css';
 class mainPage extends Component {
   state = {  }
   render() { 
+    var data = this.props.data;
     return ( 
         <div className="mainPage">
-          {this.props.data.proj0 === true ? <DisplayItem /> : <DisplayList />}
+          {data.proj0 === true ? <DisplayItem data={data} /> : <DisplayList  data={data} />}
         </div>
      );
   }

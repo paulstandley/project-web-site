@@ -1,10 +1,17 @@
 /* Display main */
 
-.displaylist > h2 {
+h2.h2displaylist {
   text-align: center;
   font-size: 2rem;
 }
 
 .displaylist {
   background-color: azure;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgsection {
+  padding: 2em;
+  background-color: blanchedalmond;
 }
