@@ -1,0 +1,26 @@
+/* Global css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav header h1 */
+
+ol {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.liheader {
+  padding: 2em;
+  background-color: aliceblue;
+}
+
+.h1header {
+  text-align: center;
+  font-size: 2rem;
+}
